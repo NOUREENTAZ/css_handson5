@@ -282,6 +282,7 @@ h1 {
     top: 151px;
     background-repeat: repeat-x;
     animation: city 10s infinite linear;
+    top:130px;
 }
 
 @keyframes city {
@@ -293,7 +294,7 @@ h1 {
 .car {
     width: 400px;
     left: 35%;
-    bottom: 118px;
+    bottom: 117px;
     transform: translateX(-50px);
     position: relative;
     z-index: 2;
@@ -319,7 +320,7 @@ h1 {
 
 .wheel {
     left: 85%;
-    bottom: 200px;
+    bottom: 201px;
     transform: translateX(-50%);
     position: relative;
     z-index: 2;
@@ -375,7 +376,7 @@ h1 {
 }
 
 .flag {
-    top: -80px;
+    top: -68px;
     left: 600px;
     height: 100px;
     width: 100px;
