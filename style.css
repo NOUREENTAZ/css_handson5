@@ -282,12 +282,12 @@ h1 {
     top: 151px;
     background-repeat: repeat-x;
     animation: city 10s infinite linear;
-    top:130px;
+    top:133px;
 }
 
 @keyframes city {
     100% {
-        transform: translateX(-200px);
+        transform: translateX(-150px);
     }
 }
 
