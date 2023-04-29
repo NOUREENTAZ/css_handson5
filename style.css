@@ -256,7 +256,7 @@ h1 {
     width: 500%;
     background-image: url('./road.jpg');
     position: absolute;
-    top: 327px;
+    top: 459px;
     bottom: 0px;
     left: 0;
     right: 0;
@@ -279,20 +279,21 @@ h1 {
     right: 0;
     z-index: 1;
     display: flex;
+    top: 151px;
     background-repeat: repeat-x;
     animation: city 10s infinite linear;
 }
 
 @keyframes city {
     100% {
-        transform: translateX(-400px);
+        transform: translateX(-200px);
     }
 }
 
 .car {
     width: 400px;
     left: 35%;
-    bottom: 253px;
+    bottom: 118px;
     transform: translateX(-50px);
     position: relative;
     z-index: 2;
@@ -318,7 +319,7 @@ h1 {
 
 .wheel {
     left: 85%;
-    bottom: 333px;
+    bottom: 200px;
     transform: translateX(-50%);
     position: relative;
     z-index: 2;
@@ -374,7 +375,7 @@ h1 {
 }
 
 .flag {
-    top: -200px;
+    top: -80px;
     left: 600px;
     height: 100px;
     width: 100px;
